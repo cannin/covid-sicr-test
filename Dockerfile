@@ -1,6 +1,6 @@
 FROM jupyter/datascience-notebook:python-3.7.6
 
-RUN git clone https://github.com/nih-niddk-mbs/covid-sicr
+RUN git clone https://github.com/cannin/covid-sicr-test covid-sicr
 WORKDIR covid-sicr
 
 RUN pip install -e .
